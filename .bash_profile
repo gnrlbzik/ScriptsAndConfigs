@@ -40,9 +40,11 @@ function _git_st {
 
 PS1="$rvm $folder_name $git_branch $yellow\$(_git_st)$reset \$ "
 
-
 ## Global Aliases
-alias ~='cd ~'
+alias ~='cd ~' # Short cut to get back to home directory 
+pf () { # Open with pathfinder
+  open -a "Path Finder.app" $(pwd);
+}
 
 ## ruby/project aliaeses
 alias be='bundle exec'
