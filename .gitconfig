@@ -17,3 +17,5 @@
   untracked = cyan
 [alias]
   st = status
+[core]
+  editor = subl --wait
