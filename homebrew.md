@@ -6,8 +6,8 @@
 
 @dmpeters: Had the same issue today as well. I resolved it by doing the following:
 
-$ brew prune
-$ brew cleanup
-$ brew update
-$ brew tap --repair
-$ brew doctor
+$ brew prune  
+$ brew cleanup  
+$ brew update  
+$ brew tap --repair  
+$ brew doctor  
