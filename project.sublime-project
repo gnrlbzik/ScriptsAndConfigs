@@ -1,0 +1,37 @@
+{
+   "folders":
+   [
+      { // theme
+         "path": "/C/wamp/www/wordpress/wp-content/themes/twentyeleven",
+         "name": "Twenty Eleven Theme",
+         "file_exclude_patterns":[
+            "._*",
+            "*.ico",
+            "*.swf"
+         ],
+         "folder_exclude_patterns": [
+            "images"
+         ]
+      },
+      { // plugins folder
+         "path": "/C/wamp/www/wordpress/wp-content/plugins",
+         "name": "Plugins Folder",
+         "file_exclude_patterns":[
+            "._*", // you need to specify this *again*
+            "*.bak",
+            "*.sample",
+            "*.tar",
+            "*.tgz",
+            "*.zip"
+         ],
+         "folder_exclude_patterns": [
+            "akismet"//,
+            // add any other plugins you wish to exclude
+         ]
+      }
+   ],
+   "settings":
+   {
+      "tab_size": 4
+   }
+}
