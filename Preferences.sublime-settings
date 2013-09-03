@@ -10,5 +10,9 @@
 
   // If enabled, will highlight any line with a caret
   "highlight_line": true
+  
+  // Line spacing
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 
 }
