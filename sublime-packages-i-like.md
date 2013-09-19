@@ -1,114 +1,72 @@
-ActionScript
-AdvancedNewFile
-All Autocomplete
-AngularJS
-AngularJS Attributes Completion
-AngularJS Snippets
-ApacheConf
-AppleScript
-ASP
-Autocomplete Javascript with Method Signature
-Backbone.js
-Batch File
-Bower
-C#
-C++
-Clojure
-closure-linter
-CoffeeCompile
-CoffeeScript
-Color Highlighter
-Color Scheme - Default
-Compass
-CSS
-CSS Media Query Snippets
-CSScomb Alpha Sort
-D
-Default
-DetectSyntax
-Diff
-DocBlockr
-Dotfiles Syntax Highlighting
-Emmet
-Emmet Css Snippets
-Erlang
-File History
-FileDiffs
-FileSystem Autocompletion
-Folder List
-Gist
-Git
-Github Tools
-Go
-Google Closure Library snippets
-Goto Folder
-GotoOpenFile
-Graphviz
-Groovy
-Haml
-Haskell
-HTML
-HTML Mustache
-HTML5
-HTML5 Doctor CSS Reset snippet
-HTMLAttributes
-HTMLPrettify
-HtmlTidy
-Http Requester
-Java
-JavaScript
-jQuery Snippets pack
-JsFormat
-JSHint
-JSONLint
-Language - English
-LaTeX
-LESS
-Lisp
-LoremIpsum
-LoremPixel
-Lua
-Makefile
-Markdown
-Markdown Preview
-MarkdownBuild
-Matlab
-Objective-C
-OCaml
-Open Folder
-Package Control
-Perl
-PHP
-Placeholders
-PlainTasks
-Prefixr
-Pretty JSON
-Python
-PyV8
-R
-Rails
-Regular Expressions
-RestructuredText
-Ruby
-RubyFormat
-Scala
-SCSS
-ShellScript
-SideBarEnhancements
-SJSON
-SQL
-SublimeLinter
-SublimeServer
-SubliminalCollaborator
-Sublimipsum
-TCL
-Text
-Textile
-Theme - Default
-TidyHTML5
-Toggle Css Format
-Underscore.js Snippets
-User
-Vintage
-XML
-YAML
+## INSTALLED
+ - JsFormat 
+ - AngularJS
+ - SideBarEnhancements
+ - AdvancedNewFile
+ - All Autocomplete
+ - JSONLint
+ - JSHint Gutter
+ - Emmet
+ - Emmet Css Snippets
+ - jQuery Snippets pack
+ - LESS
+ - SCSS
+ - CSS Media Query Snippets
+ - CSScomb
+ - Haml
+ - HTML Mustache
+ - HTML5
+ - HTML5 Doctor CSS Reset snippet
+ - Http Requester
+ - Dotfiles Syntax Highlighting
+ - File History
+ - FileDiffs
+ - Folder List
+ - Gist
+ 
+## NOT UPDATED FOR ST3
+
+ - GotoOpenFile
+ - Autocomplete Javascript with Method Signature
+ - LoremIpsum
+ - LoremPixel
+ - Compass
+ - HTMLAttributes
+ - HTMLPrettify
+ - HtmlTidy
+ - FileSystem Autocompletion
+ - Git
+ - Github Tools
+ - Goto Folder
+   
+ ====================
+
+
+##Left to install
+ 
+ - Backbone.js
+ - Bower
+ - closure-linter
+ - CoffeeCompile
+ - CoffeeScript
+ - Color Highlighter
+ - Color Scheme - Default
+ - Default
+ - DetectSyntax
+ - DocBlockr
+ - Google Closure Library snippets
+ - Markdown Preview
+ - MarkdownBuild
+ - Open Folder
+ - Placeholders
+ - PlainTasks
+ - Prefixr
+ - Pretty JSON
+ - SublimeLinter
+ - SublimeServer
+ - SubliminalCollaborator
+
+ - Text
+ - TidyHTML5
+ - Toggle Css Format
+ - Underscore.js Snippets
