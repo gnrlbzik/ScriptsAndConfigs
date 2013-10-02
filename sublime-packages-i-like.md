@@ -23,10 +23,11 @@
  - FileDiffs
  - Folder List
  - Gist
+ - GotoOpenFile
  
 ## NOT UPDATED FOR ST3
 
- - GotoOpenFile
+
  - Autocomplete Javascript with Method Signature
  - LoremIpsum
  - LoremPixel
