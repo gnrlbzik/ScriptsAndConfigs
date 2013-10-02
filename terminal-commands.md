@@ -2,17 +2,105 @@
 
 All that I could find for personal reference. 
 
-* * *
+
+#### Editing
+
+**Alt + Del** / **Ctrl + W** : Delete the word before the cursor.
+
+**Alt + D** : Delete the word after the cursor.
+
+**Alt + T** : Swap current word with previous
+
+**Esc + T** : Swap the last two words before the cursor.
+
+**Ctrl + K** : Clear the line after the cursor
+
+**Ctrl + T** : Swap the last two characters before the cursor
+
+**Ctrl + L** : Clears the Screen, similar to the clear command
+
+**Tab** : Auto-complete files and folder names
+
+#### Moving Cursor:
+
+**Ctrl + F** : Move cursor forward one character
+
+**Ctrl + B** : Move cursor backward one character
+
+**Alt + F** : Move cursor forward one word
+
+**Alt + B** : Move cursor backward one word
 
 **Ctrl + A** : Go to the beginning of the line you are currently typing on
 
-* * *
-
 **Ctrl + E** : Go to the end of the line you are currently typing on
 
+
+
+
+
+
+### ORGANIZE FOLLOWING:
+
 * * *
 
-**Ctrl + L** : Clears the Screen, similar to the clear command
+**Ctrl + p** : Previous command (Up arrow), Previous command in history (i.e. walk back through the command history)
+
+* * *
+
+**Ctrl + n** : Next command (Down arrow), Next command in history (i.e. walk forward through the command history)
+
+* * *
+
+**Ctrl + xx** : Toggle between the start of line and current cursor position
+
+* * *
+
+**Ctrl + y** : Paste the last thing to be cut (yank)
+
+* * *
+
+**Alt + u** : UPPER capitalize every character from the cursor to the end of the current word.
+
+* * *
+
+**Alt + l** : Lower the case of every character from the cursor to the end of the current word.
+
+* * *
+
+**Alt + c** : Capitalize the character under the cursor and move to the end of the word.
+
+* * *
+
+**Alt + r** : Cancel the changes and put back the line as it was in the history (revert).
+
+* * *
+
+**Ctrl + _** : Undo
+
+* * *
+
+**TAB** : Tab completion for file/directory names
+
+* * *
+
+**Alt + .** : Use the last word of the previous command
+
+* * *
+
+**Ctrl + s** : Go back to the next most recent command. Stop output to the screen (for long running verbose commands)
+
+* * *
+
+**Ctrl + o** : Execute the command found via Ctrl+r or Ctrl+s
+
+* * *
+
+**Ctrl + g** : Escape from history searching mode
+
+* * *
+
+**Ctrl + q** : Allow output to the screen (if previously stopped using command above)
 
 * * *
 
@@ -36,196 +124,168 @@ All that I could find for personal reference.
 
 * * *
 
-**Ctrl + Z** : Puts whatever you are running into a suspended background process. fg restores it.
+**Ctrl + Z** : Puts whatever you are running into a suspended background process. To return to it later enter fg 'process name' (foreground).
 
 * * *
 
-**Ctrl + W** : Delete the word before the cursor
+**⌘ + ,** : Preferences…
 
 * * *
 
-**Ctrl + K** : Clear the line after the cursor
+**⌘ + H** : Hide Terminal
 
 * * *
 
-**Ctrl + T** : Swap the last two characters before the cursor
+**⌥ + ⌘ + H** : Hide Others
 
 * * *
 
-**Esc + T** : Swap the last two words before the cursor
+**⌘ + Q** : Quit Terminal
 
 * * *
 
-**Alt + F** : Move cursor forward one word on the current line
+**⇧ + ⌘ + N** : New Command…
 
 * * *
 
-**Alt + B** : Move cursor backward one word on the current line
+**⇧ + ⌘ + K** : New Remote Connection…
 
 * * *
 
-**Tab** : Auto-complete files and folder names
+**⌘ + O** : Import...
 
 * * *
 
-**⌘ ,** : Preferences…
+**⌘ + W** : Close Window
 
 * * *
 
-**⌘ H** : Hide Terminal
+**⌥ + ⌘ + W** : Close All
 
 * * *
 
-**⌥ ⌘ H** : Hide Others
+**⌘ + S** : Export Text As…
 
 * * *
 
-**⌘ Q** : Quit Terminal
+**⇧ + ⌘ + S** : Export Selected Text As…
 
 * * *
 
-**⇧ ⌘ N** : New Command…
+**⌘ + I** : Show Inspector
 
 * * *
 
-**⇧ ⌘ K** : New Remote Connection…
+**⇧ + ⌘ + I** : Edit Title
 
 * * *
 
-**⌘ O** : Import...
+**⌘ + R** : Send Reset
 
 * * *
 
-**⌘ W** : Close Window
+**⌥ + ⌘ + R** : Send Hard Reset
 
 * * *
 
-**⌥ ⌘ W** : Close All
+**⌥ + ⌘ + P** : Print Selection…
 
 * * *
 
-**⌘ S** : Export Text As…
+**⌘ + P** : Print…
 
 * * *
 
-**⇧ ⌘ S** : Export Selected Text As…
+**⌘ + Z** : Undo
 
 * * *
 
-**⌘ I** : Show Inspector
+**⇧ + ⌘ + Z** : Redo
 
 * * *
 
-**⇧ ⌘ I** : Edit Title
+**⌘ + X** : Cut
 
 * * *
 
-**⌘ R** : Send Reset
+**⌘ + C** : Copy
 
 * * *
 
-**⌥ ⌘ R** : Send Hard Reset
+**⌘ + V** : Paste
 
 * * *
 
-**⌥ ⌘ P** : Print Selection…
+**⇧ + ⌘ + V** : Paste Selection
 
 * * *
 
-**⌘ P** : Print…
+**⌘ + A** : Select All
 
 * * *
 
-**⌘ Z** : Undo
+**⌥ + ⌘ + T** : Special Characters…
 
 * * *
 
-**⇧ ⌘ Z** : Redo
+**⇧ + ⌘ + T** : Show Tab Bar
 
 * * *
 
-**⌘ X** : Cut
+**⌘ + +** : Bigger
 
 * * *
 
-**⌘ C** : Copy
+**⌘ + -** : Smaller
 
 * * *
 
-**⌘ V** : Paste
+**⌘ + K** : Clear Scrollback
 
 * * *
 
-**⇧ ⌘ V** : Paste Selection
+**⌘ + M** : Minimize
 
 * * *
 
-**⌘ A** : Select All
+**⌥ + ⌘ + M** : Minimize All
 
 * * *
 
-**⌥ ⌘ T** : Special Characters…
+**⌘ + `** : Cycle Through Windows
 
 * * *
 
-**⇧ ⌘ T** : Show Tab Bar
+**⌘ + }** : Select Next Tab
 
 * * *
 
-**⌘ +** : Bigger
+**⌘ + {** : Select Previous Tab
 
 * * *
 
-**⌘ -** : Smaller
+**⌘ + D** : Split Pane
 
 * * *
 
-**⌘ K** : Clear Scrollback
+**⇧ + ⌘ + D** : Close Split Pane
 
 * * *
 
-**⌘ M** : Minimize
+**⌘ + 4** : Terminal — bash — 73×34
 
 * * *
 
-**⌥ ⌘ M** : Minimize All
+**⌘ + 5** : Terminal — bash — 80×24
 
 * * *
 
-**⌘ `** : Cycle Through Windows
+**⌘ + 2** : Terminal — bash — 83×27
 
 * * *
 
-**⌘ }** : Select Next Tab
+**⌘ + 3** : Terminal — rotatelogs — 80×24
 
 * * *
 
-**⌘ {** : Select Previous Tab
-
-* * *
-
-**⌘ D** : Split Pane
-
-* * *
-
-**⇧ ⌘ D** : Close Split Pane
-
-* * *
-
-**⌘ 4** : Terminal — bash — 73×34
-
-* * *
-
-**⌘ 5** : Terminal — bash — 80×24
-
-* * *
-
-**⌘ 2** : Terminal — bash — 83×27
-
-* * *
-
-**⌘ 3** : Terminal — rotatelogs — 80×24
-
-* * *
-
-**⌘ 1** : Terminal — sudo — 80×24
+**⌘ + 1** : Terminal — sudo — 80×24
