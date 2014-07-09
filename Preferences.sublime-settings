@@ -11,10 +11,15 @@
   "translate_tabs_to_spaces": true,
 
   // If enabled, will highlight any line with a caret
-  "highlight_line": true
+  "highlight_line": true,
   
   // Line spacing
   "line_padding_bottom": 3,
   "line_padding_top": 3,
 
+  // Great for excluding things from go to anything pane. Like pesky components folders.
+	"binary_file_patterns": [
+		"bower_components/*",
+		"node_modules/*"
+  ]
 }
