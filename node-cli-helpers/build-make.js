@@ -6,7 +6,7 @@ var cmndsMap = {
 }
 
 if (process.argv[2] && process.argv[2].length && cmndsMap[process.argv[2].toUpperCase()]) {
-  exec('make cidist OPTS="-pl :' + cmndsMap[process.argv[2].toUpperCase()] + ',:globex-karaf-dist" start');
+  exec('make cidist OPTS="-pl :' + cmndsMap[process.argv[2].toUpperCase()] + ',:some-target-dist" start');
 } else {
   console.log('no valid build target specified');
   console.log('available bundles: ', cmndsMap);
