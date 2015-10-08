@@ -2,6 +2,7 @@
 
 All that I could find for personal reference. 
 
+**NOTE** in iterm2 go to preferences (⌘ + ,) -> profiles -> Keys and enable "left option key acts as" to "+Esc".
 
 #### Editing
 
