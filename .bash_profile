@@ -46,6 +46,16 @@ pf () { # Open with pathfinder
   open -a "Path Finder.app" $(pwd);
 }
 
+## Select Specific Java Version
+useJava () {
+  JDK="6"
+  if [ -z ${var+$1} ]; then
+    JDK=$1
+  fi
+  export JAVA_HOME="/usr/libexec/java_home -v 1.${JDK}*"
+  echo "JAVA_HOME is set to ${JAVA_HOME}"
+}
+
 ## ruby/project aliaeses
 alias be='bundle exec'
 # alias console='pry -r ./config/environment.rb'
