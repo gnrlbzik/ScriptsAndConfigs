@@ -48,12 +48,14 @@ pf () { # Open with pathfinder
 
 ## Select Specific Java Version
 useJava () {
-  JDK="6"
-  if [ -z ${var+$1} ]; then
-    JDK=$1
+  if [ -z "$*" ];
+    then
+      JDK=6
+    else
+      JDK=$1
   fi
-  export JAVA_HOME="/usr/libexec/java_home -v 1.${JDK}*"
-  echo "JAVA_HOME is set to ${JAVA_HOME}"
+  export JAVA_HOME=`/usr/libexec/java_home -v 1.${JDK}*`
+  echo `java -version`
 }
 
 ## ruby/project aliaeses
