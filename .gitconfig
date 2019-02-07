@@ -17,5 +17,9 @@
   untracked = cyan
 [alias]
   st = status
+  ci = commit
+	kick = commit --allow-empty -m \"kick\" #git config --global alias.kick 'commit --allow-empty -m "kick"'
 [core]
   editor = subl --wait
+[commit]
+	gpgsign = true
