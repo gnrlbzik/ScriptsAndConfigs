@@ -22,4 +22,4 @@
 [core]
   editor = subl --wait
 [commit]
-	gpgsign = true
+  gpgsign = true
