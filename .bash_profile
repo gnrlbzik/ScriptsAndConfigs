@@ -58,8 +58,8 @@ useJava () {
   echo `java -version`
 }
 
-# Use Safari JS engine in CLI
-#JavaScriptCore REPL
+## Use Safari JS engine in CLI
+# JavaScriptCore REPL
 jscbin="/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc";
 # shellcheck disable=2139
 [ -e "${jscbin}" ] && alias jsc="${jscbin}";
